@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="left">Noor's-Portfolio</div>
+
+            <div class="right  ">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- ------------MAIN SECTION -->
+    <main id="home">
+        <!-------------------------- hero section --------------->
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi, my name is <span class="purple">Noor_ul_ain.</span>
+                <div>and i am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsec">
+                <img src="Software-Engineering-PNG-Pic.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <!-- --------------------- SECOND SECTION --------------->
+        <section class="secondsec">
+            <span class="text-grey">What I have done for</span>
+            <h1>My work</h1>
+            <div class="box">
+                <div class="img-1">
+                    <a href="https://nrain78.github.io/responsive-web/"><img
+                            src="./assets/Screenshot 2024-11-03 204211.png" alt=""></a>
+                    <div class="para">
+                        <p>Sticky navbar</p>
+                    </div>
+                </div>
+                <div class="img-1">
+                    <a href="https://euphonious-longma-11119b.netlify.app/"><img src="./assets/spotify.png" alt=""></a>
+                    <div class="para">
+                        <p>spotify</p>
+                    </div>
+                </div>
+                <div class="img-1">
+                    <a href=" https://nrain78.github.io/food-delevery/"><img src="./assets/food.png" alt=""></a>
+                    <div class="para">
+                        <p>food-delevery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- -----------------------------  about us ---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/about me.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-title">About Me</h1>
+                    <p class="about-title-p">
+                        Hello! I am noor Web developer &#10084.With a strong structure of HTML, CSS, JAVASCRIPT.
+                        I enjoy working on both the technical and visual aspects of developing.My goal is to build
+                        websites that not only look stunning but also loook functionality.
+                        whether it's a personal blog, a business portfolio, or a dynamic web application.
+                        When I’m not coding, I’m exploring the latest web technologies and trends to stay ahead in this
+                        ever-evolving field. I believe in continuous learning and pushing the boundaries of what's
+                        possible on the web.
+                    </p>
+                    <div class="tab-title">
+                        <p class="skill active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="skill" onclick="opentab('experience')">Experience</p>
+                        <p class="skill" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab " id="Skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li>I am a fresher</li>
+                            <li>I have skills </li>
+                            <li>Coding</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li>Matric In Bio</li>
+                            <li>Inter in Computer Science At S.S.G.G.C</li>
+                            <li>Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------- portfoli section------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="port-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://monumental-genie-565d84.netlify.app/"><img src="./assets/pet.jpg"></a>
+                    <div class="layer">
+                        <h3>Pet Website</h3>
+                        <p>In this Card, you meet tom and jerry.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://stunning-palmier-3ef207.netlify.app/#top"><img src="./assets/kabab.jpg"></a>
+                    <div class="layer">
+                        <h3>Kababjees</h3>
+                        <p>Here is a Kababjees website.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://nrain78.github.io/camera/"><img src="./assets/camera.jpg"></a>
+                    <div class="layer">
+                        <h3>Random</h3>
+                        <p>here's a random web-page
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------- CONTACT SECTION -------------------------- -->
+    <div id="contact">
+        <div class="cont-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="cont-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Contact@example</p>
+                    <p><i class="fa-solid fa-phone"></i> 012345678</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <!-- <a href="" class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form action="#" name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" id="Your Email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Feedback" maxlength="50"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>Copyright &#169. Made by with &#10084; </p>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', '&#10084;', 'Love Coding!'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="app.js"></script>
+
+    <!-- contact form script -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwuGMbSZ3P-v4VVl32Y2AA-qmu7499jbfeR5oPMkQHQOGcGRLbEzwY12iKF8Phze3Znsw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {msg.innerHTML = "Message Sent Suceesfully!"
+                    setTimeout( function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
