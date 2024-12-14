@@ -281,7 +281,7 @@ main hr {
 }
 .about-col-2 .about-title-p{
     color: rgb(126, 123, 123);
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     opacity: 1;
 }
 .about-title{
@@ -330,9 +330,9 @@ transition: 0.5s;
 
 /* media query for about section */
 @media screen and (max-width:624px) {
-    /* #about{
+    #about{
         overflow: hidden;
-    } */
+    }
     .about-title{
         font-size: 2rem;
         text-align: center;
@@ -341,9 +341,9 @@ transition: 0.5s;
         flex-basis: 100%;
     }
     .about-title-p{
-        font-size: 1rem;
+        /* font-size: 0.7rem; */
         text-align: center;
-        padding: 0 8px;
+        /* padding: 0 8px; */
     }
     .tab-content ul li{
       list-style-type: none;
