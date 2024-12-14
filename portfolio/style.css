@@ -331,7 +331,7 @@ transition: 0.5s;
 /* media query for about section */
 @media screen and (max-width:624px) {
     #about{
-        overflow: hidden;
+        padding:0px 8px;
     }
     .about-title{
         font-size: 2rem;
@@ -342,7 +342,7 @@ transition: 0.5s;
     }
     .about-title-p{
         /* font-size: 0.7rem; */
-        text-align: center;
+        /* text-align: center; */
         /* padding: 0 8px; */
     }
     .tab-content ul li{
