@@ -329,7 +329,7 @@ transition: 0.5s;
 }
 
 /* media query for about section */
-@media screen and (max-width:624px) {
+@media screen and (max-width:824px) {
     #about{
         padding:0px 8px;
     }
@@ -340,11 +340,9 @@ transition: 0.5s;
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
-    .about-title-p{
-        /* font-size: 0.7rem; */
-        /* text-align: center; */
-        /* padding: 0 8px; */
-    }
+    /* .about-title-p{
+        font-size: x-small;
+     }  */
     .tab-content ul li{
       list-style-type: none;
     }
