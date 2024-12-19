@@ -340,9 +340,9 @@ transition: 0.5s;
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
-    /* .about-title-p{
-        font-size: x-small;
-     }  */
+    .about-title-p{
+        font-size: smaller;
+     } 
     .tab-content ul li{
       list-style-type: none;
     }
